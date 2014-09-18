@@ -28,7 +28,7 @@ import java.io.File;
 import java.util.Iterator;
 import java.util.List;
 
-import org.apache.commons.lang.StringEscapeUtils;
+import org.apache.commons.lang3.StringEscapeUtils;
 import org.apache.ecs.ElementContainer;
 import org.apache.ecs.xhtml.a;
 import org.apache.ecs.xhtml.b;
@@ -94,7 +94,7 @@ public class HtmlExportPublicationGenerator {
     }
     this.modelDetail = modelDetail;
     this.wysiwygText = wysiwygText;
-    this.urlPub = StringEscapeUtils.escapeHtml(urlPub).replaceAll("#", "%23");
+    this.urlPub = StringEscapeUtils.escapeHtml4(urlPub).replaceAll("#", "%23");
   }
 
   /**
