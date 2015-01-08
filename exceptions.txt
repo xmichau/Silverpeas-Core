@@ -1,4 +1,3 @@
-azertyuiop
 Silverpeas FLOSS License Exception
 
 The Silverpeas Exception for Free/Libre and Open Source
